@@ -1,0 +1,115 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.img-container {
+  max-width: 630px;
+  margin: auto;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+/*Darkmode*/
+.form-check {
+  display: flex;
+  align-items: center; /* Menyelaraskan checkbox dan label di tengah secara vertikal */
+}
+
+.form-check-input {
+  margin-right: 10px; /* Jarak antara checkbox dan label */
+}
+
+.nama_kegiatan {
+  font-weight: bold;
+  font-size: 5vw; /* Menggunakan unit vw untuk ukuran responsif */
+}
+
+/* Adjust the font color for h2 and p */
+h2,
+p {
+  color: black;
+}
+
+/* Adjust the font color for the team members section */
+#anggota {
+  color: black;
+}
+
+/* Adjust the width of the grid section */
+.grid {
+  background: url("https://i.im.ge/2022/07/10/uvsy79.png") no-repeat center center;
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: blue;
+}
+
+
+/* Add a new class to style the grid columns */
+.col-md-3.text-center.tim {
+  width: 25%;
+}
+
+/* Adjust the margin for the team member images */
+.tim img {
+  width: 10vw; /* Menggunakan unit vw untuk ukuran responsif */
+  height: 10vw; /* Menggunakan unit vw untuk ukuran responsif */
+}
+
+/* Adjust the font size for the team member names and universities */
+.tim h4,
+.tim p {
+  font-size: 1.5vw; /* Menggunakan unit vw untuk ukuran responsif */
+}
+
+/* Adjust the font weight for the team member names */
+.tim h4 {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  /* Penyesuaian tata letak untuk layar dengan lebar maksimum 768px */
+  .nama_kegiatan {
+    font-size: 7vw; /* Ukuran font yang lebih besar untuk layar kecil */
+  }
+
+  .tim img {
+    width: 20vw; /* Ukuran gambar yang lebih besar untuk layar kecil */
+    height: 20vw; /* Ukuran gambar yang lebih besar untuk layar kecil */
+  }
+
+  .tim h4,
+  .tim p {
+    font-size: 3vw; /* Ukuran font yang lebih besar untuk layar kecil */
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: whitesmoke;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 1em;
+}

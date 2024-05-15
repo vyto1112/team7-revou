@@ -1,0 +1,110 @@
+/* Styling untuk dark mode */
+.darkmode {
+  background-color: #222;
+  color: #fff;
+}
+
+.darkmode #anggota {
+  color: #fff; /* Ubah warna teks menjadi putih */
+}
+
+.darkmode .navbar-transparent.navbar-scroll {
+  background-color:rgba(0, 0, 0, 0.9);
+}
+
+.darkmode h2,
+.darkmode p,
+.darkmode a,
+.darkmode label,
+.darkmode .btn {
+  color: #fff; /* Ubah warna teks menjadi putih */
+}
+
+
+.darkmode .card {
+  background-color: #333;
+  color: #fff;
+}
+
+.darkmode .form-control,
+.darkmode .form-check-label {
+  color: #fff; /* Ubah warna teks input dan label menjadi putih */
+}
+
+.darkmode .img-thumbnail {
+  border-color: #fff; /* Ubah warna border gambar thumbnail menjadi putih */
+}
+
+.darkmode .footer-content {
+  color: #fff; /* Ubah warna teks footer menjadi putih */
+}
+
+/* Styling tambahan untuk dark mode di bagian footer */
+.darkmode footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.darkmode .footer-section a {
+  color: #fff; /* Ubah warna teks tautan footer menjadi putih */
+}
+
+.darkmode .footer-section a[href="https://docs.google.com/spreadsheets/d/14ucBDGxmsDAat30HjIrqUWDsJkVWPgzAMPE9LPEZrks/edit#gid=812620893"],
+.darkmode .footer-section a[href="https://lookerstudio.google.com/reporting/0356fabe-d639-49dc-acba-56c606887dfd"],
+.darkmode .footer-section a[href="https://console.cloud.google.com/bigquery?sq=367771472105:f81eedb86c0e41e5a551e00b422aaf7f"],
+.darkmode .footer-section a[href="mailto:team7.tasmgrevou@gmail.com"],
+.darkmode .footer-section a[href="tel:+6285789217689"] {
+  color: #fff; /* Ubah warna teks menjadi putih */
+}
+
+
+/* Styling tambahan untuk dark mode pada tombol search */
+.darkmode .btn-outline-dark {
+  color: #fff; /* Ubah warna teks tombol search menjadi putih */
+  border-color: #fff; /* Ubah warna border tombol search menjadi putih */
+}
+
+/* Styling tambahan untuk dark mode pada form feedback */
+.darkmode .contact-form {
+  background-color: #333;
+  color: #fff;
+}
+
+.darkmode .contact-form input,
+.darkmode .contact-form textarea {
+  background-color: #333;
+  color: #fff;
+  border-color: #888;
+}
+
+.darkmode .contact-form {
+  background-color: #888;
+  color: white;
+}
+
+.darkmode .contact-form input[type="submit"] {
+  background-color: #333;
+  color: white;
+}
+
+/* Styling tambahan untuk dark mode pada dropdown menu */
+.darkmode .dropdown-menu {
+  background-color:#333;
+  color: #fff;
+  border-color: #888;
+}
+
+.darkmode .dropdown-menu .dropdown-item {
+  color: #fff;
+}
+
+.darkmode .dropdown-menu .dropdown-item:hover,
+.darkmode .dropdown-menu .dropdown-item:focus {
+  background-color: #fff;
+}
+
+/* Styling tambahan untuk dark mode pada form switch */
+.darkmode .form-check-input[type="checkbox"] {
+  background-color: #444;
+  border-color: #888;
+}

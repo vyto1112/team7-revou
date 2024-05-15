@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/Revou.png" />
+    <title>Tim 7 Semarang</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <style>
+      .navbar-transparent {
+        background-color: transparent;
+      }
+      .navbar-transparent.navbar-scroll {
+        background-color: rgba(255, 255, 255, 0.9);
+        transition: background-color 0.3s ease;
+      }
+    </style>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+
+  </head>
+
+  <body>
+
+  <!-- navigasi -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent sticky-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+  
+      <!-- Bagian kiri navbar -->
+      <div class="d-flex align-items-center">
+        <img src="img/RevoU.png" alt="" class="navbar-brand" style="width: 8vh;">
+      </div>
+      
+  
+   <!-- Bagian tengah navbar -->
+   <div class="text-center">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarText">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#ov"><b>Overview</b></a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#au"><b>About Us</b></a></li>
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownProject" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Project Section</b></a>
+            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownProject" style="left: 50%; transform: translateX(-50%);">
+              <li><a class="dropdown-item" href="#pb">Project Background</a></li>
+              <li><a class="dropdown-item" href="#pg">Project Goals</a></li>
+              <li><a class="dropdown-item" href="#method">Methodology</a></li>
+              <li><a class="dropdown-item" href="#gp">Gathering Process</a></li>
+              <li><a class="dropdown-item" href="#data">Data Visualization & Analysis</a></li>
+              <li><a class="dropdown-item" href="#recom">Recommendation</a></li>
+              <li><a class="dropdown-item" href="#con">Conclusion</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMore" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>More</b></a>
+            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMore" style="left: 50%; transform: translateX(-50%);">
+              <li><a class="dropdown-item" href="#anggota">Team Members</a></li>
+              <li><a class="dropdown-item" href="#feedback">Feedback Form</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact Us</a></li>
+            </ul>
+          </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  
+<!-- Bagian kanan navbar -->
+<div class="form-container">
+  <div class="form-check form-switch px-md-2">
+      <input class="form-check-input" type="checkbox" id="darkmode">
+      <label class="form-check-label" for="darkmode"><b>Darkmode</b></label>
+  </div>
+</div>
+
+  </nav>
+</body>
+<br>
+
+<!-- nama_kegiatan -->
+<div class="slogan container-fluid nama_kegiatan pt-5 pb-5 ">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Kolom untuk gambar -->
+      <div class="col-md-6 text-center mb-3 mb-md-0 img-container">
+        <img src="img/sobatrevo.png" class="img-fluid" alt="Responsive Image">
+      </div>
+
+      <!-- Kolom untuk teks -->
+      <div class="col-md-6 text-center text-md-start">
+        <h2 class="display-4 fw-bold" id="kegiatan">RevoU Tech Academy</h2>
+        <h3 class="display-6 fw-bold" id="kegiatan">Learn Data Analytics & Software Development With AI</h3>
+        <section style="font-weight: normal; font-size: 1rem;">
+          <br>
+          <p style="font-weight: normal; font-size: 1rem;">Team 7 Section Semarang</p>
+        </section>
+        <button class="btn btn-warning">Check It</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<br><br>
+
+<!-- Overview -->
+<main>
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container text-center">
+      <h2 class="display-10" id="ov"><b>Overview</b></h2>
+      <div class="row pt-4">
+        <div class="col-md-8 mx-auto"> <!-- Tambahkan class col-md-8 dan mx-auto -->
+          <div class="card crop-img">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6" style="text-align: justify;">
+                  <p style="text-indent: 1em;">Our team conducted an analysis of the Bikes Sales Europe dataset to extract business questions and find solutions to them. We followed a series of steps, including identifying the root causes of the problems, setting objectives, analyzing the dataset, and creating visualizations to better understand the results of our analysis.</p>
+                </div>
+                <div class="col-md-6" style="text-align: justify;">
+                  <p style="text-indent: 1em;">The main focus of our analysis is on how to increase the revenue of a product in a European country with a specific age group.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+<br>
+
+<!-- project background -->
+    <main>
+    <div class="container-fluid pt-5 pb-5 ">
+      <div class="container text-center">
+        <h2 class="display-10" id="pb"><b>Project Background</b></h2>
+        <div class="row pt-4 gx-4 gy-4">
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="img/ProjectBG.png" class="card-img-top" width="100%" height="100%"
+              />
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="img/mainproblem.png" class="card-img-top" width="100%" height="100%"
+              />
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <img
+                src="img/problemstatement.png"
+                class="card-img-top"
+                width="100%"
+                height="100%"
+              />
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+  </main>
+<br>
+
+<!-- project goals -->
+    <main>
+      <div class="container-fluid pt-5 pb-5">
+        <div class="container text-center">
+          <h2 class="display-10" id="pg"><b>Project Goals</b></h2>
+          <div class="row pt-4">
+            <div class="col-md-8 mx-auto">
+              <div class="card crop-img mx-auto">
+                <img src="img/bussque.png" class="card-img-top" width="100%" height="100%" />
+                <div class="card-body">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+<br>
+
+<!-- methodology -->
+    <main>
+      <div class="container-fluid pt-5 pb-5 ">
+        <div class="container text-center">
+          <h2 class="display-10" id="method"><b>Methodology</b></h2>
+          <div class="row pt-4 gx-4 gy-4">
+
+            <div class="col-md-6"> <!-- col-md-6 untuk membuat dua kolom -->
+              <div class="card crop-img">
+                <img src="img/method.png" class="card-img-top" width="100%" height="100%" />
+                <div class="card-body">
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-6"> <!-- col-md-6 untuk membuat dua kolom -->
+              <div class="card crop-img">
+                <img src="img/step.png" class="card-img-top" width="100%" height="100%" />
+                <div class="card-body">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+<br>
+
+<!-- gathering process -->
+      <main>
+        <div class="container-fluid pt-5 pb-5">
+          <div class="container text-center">
+            <h2 class="display-10" id="gp"><b>Gathering Process</b></h2>
+            <div class="row pt-4 gx-4 gy-4">
+
+              <div class="col-md-3">
+                <div class="card crop-img">
+                  <img src="img/15.png" class="card-img-top" width="100%" height="100%" />
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-md-3">
+                <div class="card crop-img">
+                  <img src="img/16.png" class="card-img-top" width="100%" height="100%" />
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-md-3">
+                <div class="card crop-img">
+                  <img src="img/17.png" class="card-img-top" width="100%" height="100%" />
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-md-3">
+                <div class="card crop-img">
+                  <img src="img/18.png" class="card-img-top" width="100%" height="100%" />
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card crop-img">
+                  <img src="img/19.png" class="card-img-top" width="100%" height="100%" />
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card crop-img">
+                  <img src="img/20.png" class="card-img-top" width="100%" height="100%" />
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card crop-img">
+                  <img src="img/21.png" class="card-img-top" width="100%" height="100%" />
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3"> 
+                <div class="card crop-img">
+                  <img src="img/22.png" class="card-img-top" width="100%" height="100%" />
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+<br>
+
+<!--Data Visualization and Analysis -->
+<main>
+  <div class="container-fluid pt-5 pb-5 ">
+    <div class="container text-center">
+      <h2 class="display-10" id="data"><b>Data Visualization & Analysis</b></h2>
+      <a href="https://lookerstudio.google.com/reporting/0356fabe-d639-49dc-acba-56c606887dfd"><b>View Looker Studio</b></a>
+      <div class="row pt-4 gx-4 gy-4">
+
+        <!-- Bagian atas -->
+        <div class="col-md-4">
+          <div class="card crop-img">
+            <img src="img/24.png" class="card-img-top" width="100%" height="100%" />
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card crop-img">
+            <img src="img/25.png" class="card-img-top" width="100%" height="100%" />
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card crop-img">
+            <img src="img/26.png" class="card-img-top" width="100%" height="100%" />
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bagian bawah -->
+      <div class="row pt-4 gx-4 gy-4">
+        <div class="col-md-6">
+          <div class="card crop-img">
+            <img src="img/27.png" class="card-img-top" width="100%" height="100%" />
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card crop-img">
+            <img src="img/28.png" class="card-img-top" width="100%" height="100%" />
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<br>
+
+<!-- recommendation -->
+<main>
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container text-center">
+      <h2 class="display-10" id="recom"><b>Recommendation</b></h2>
+      <div class="row pt-4">
+        <div class="col-md-8 mx-auto">
+          <div class="card crop-img mx-auto">
+            <img src="img/30.png" class="card-img-top" width="100%" height="100%" />
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<br>
+
+<!-- conclusion -->
+<main>
+  <div class="container-fluid pt-5 pb-5 ">
+    <div class="container text-center">
+      <h2 class="display-10" id="con"><b>Conclusion</b></h2>
+      <div class="row pt-4 gx-4 gy-4">
+
+        <div class="col-md-6"> <!-- Mengubah col-md-4 menjadi col-md-6 untuk membuat dua kolom -->
+          <div class="card crop-img">
+            <img src="img/32.png" class="card-img-top" width="100%" height="100%" />
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6"> <!-- Mengubah col-md-4 menjadi col-md-6 untuk membuat dua kolom -->
+          <div class="card crop-img">
+            <img src="img/33.png" class="card-img-top" width="100%" height="100%" />
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- anggota tim -->
+<main>
+  <div class="container-fluid pt-5 pb-5 ">
+    <div class="container text-center">
+      <h2 class="display-10" id="anggota"><b>Team Members</b></h2>
+      <hr>
+      <div class="row pt-4 gx-4 gy-4">
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Amalia Fadhillah</h4>
+          <p>University</p>
+        </div>
+        
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Bagas Ghulam Maulana</h4>
+          <p>University</p>
+        </div>
+        
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Devito Aldiga Fitra</h4>
+          <p>Ahmad Dahlan University</p>
+        </div>
+        
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Fasya Alifah Azmi</h4>
+          <p>University</p>
+        </div>
+      </div>
+      
+      <div class="row pt-4 gx-4 gy-4 text-center">
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Fatimah Asyifa</h4>
+          <p>University</p>
+        </div>
+        
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Olympius Sawusa Bama</h4>
+          <p>University</p>
+        </div>
+        
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Reni Rahmayani</h4>
+          <p>University</p>
+        </div>
+        
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Risti Nurrisa</h4>
+          <p>University</p>
+        </div>
+      </div>
+      
+      <div class="row pt-4 gx-4 gy-4 text-center">
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Roni Irawan</h4>
+          <p>University</p>
+        </div>
+        
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Sofia Shanty Sugiyono</h4>
+          <p>University</p>
+        </div>
+        
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Soffadina Aufa Rahma</h4>
+          <p>University</p>
+        </div>
+        
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Sigit Pamungkas</h4>
+          <p>University</p>
+        </div>
+      </div>
+      
+      <div class="row pt-4 gx-4 gy-4 text-center">
+        <div class="col-md-3 text-center tim">
+          <img src="img/avatar.png" class="rounded-pill mb-3 img-thumbnail" style="width: 100px; height: 100px;" />
+          <h4>Virgo Junior Sitepu</h4>
+          <p>University</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<br>
+
+<!-- feedback form -->
+    <div class="container">
+        <form method="post" action="https://script.google.com/macros/s/AKfycbyzqzZUi8XLT8MCB_-KmvwX9xuSOg41AYheigFQcNi45K-GJXrkIKzGvINHtNb5mC2EhQ/exec" name="contact-form">
+            <h4 id="feedback">Feedback Form</h4>
+            <input type="text" name="your-name" placeholder="Name" required>
+            <input type="email" name="your-email" placeholder="Email" required>
+            <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+            <div class="submit-container">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </div>
+    <br>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-section">
+        <h3 id="au">About Us</h3>
+        <p>Team 7 Section Semarang, Revou Tech Academy</p>
+      </div>
+    
+      <div class="footer-section">
+        <h3>Links</h3>
+        <p><a href="https://docs.google.com/spreadsheets/d/14ucBDGxmsDAat30HjIrqUWDsJkVWPgzAMPE9LPEZrks/edit#gid=812620893">Dataset</a></p>
+        <p><a href="https://lookerstudio.google.com/reporting/0356fabe-d639-49dc-acba-56c606887dfd">Looker Studio</a></p>
+        <p><a href="https://console.cloud.google.com/bigquery?sq=367771472105:f81eedb86c0e41e5a551e00b422aaf7f">Google BigQuery</a></p>
+      </div>
+    
+      <div class="footer-section">
+        <h3 id="contact">Contact Us</h3>
+        <p><a href="mailto:team7.tasmgrevou@gmail.com">Email</a></p>
+        <p><a href="tel:+6285789217689">Phone</a></p>
+      </div>
+    
+      <!--copyright-->
+      <div class="footer-content text-center p-4 -50 mt-auto">
+        <hr> <!-- untuk menambahkan garis horizontal -->
+        <span>Copyright © 2024 All rights reserved |</span>
+        <a href="#" class="text-reset fw-bold">Team 7 Semarang</a>
+      </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/feedback.js"></script>
+
+  </body>
+</html>
