@@ -9,7 +9,7 @@
 }
 
 .darkmode .navbar-transparent.navbar-scroll {
-  background-color:rgba(0, 0, 0, 0.9);
+  background-color:rgba(202, 202, 202, 0.9);
 }
 
 .darkmode h2,
@@ -20,6 +20,9 @@
   color: #fff; /* Ubah warna teks menjadi putih */
 }
 
+.projcard-title {
+  color: black;
+}
 
 .darkmode .card {
   background-color: #333;

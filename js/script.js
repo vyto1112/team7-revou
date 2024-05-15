@@ -36,6 +36,8 @@ let navbar = document.querySelector(".navbar"),
     
       darkmode.addEventListener("change", changeDarkmode);
 
+      
+
 
 
 

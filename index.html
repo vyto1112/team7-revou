@@ -13,15 +13,6 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-    <style>
-      .navbar-transparent {
-        background-color: transparent;
-      }
-      .navbar-transparent.navbar-scroll {
-        background-color: rgba(255, 255, 255, 0.9);
-        transition: background-color 0.3s ease;
-      }
-    </style>
     
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -45,38 +36,35 @@
    <!-- Bagian tengah navbar -->
    <div class="text-center">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div id="navbarText">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item dropdown">
-          <li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#ov"><b>Overview</b></a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#au"><b>About Us</b></a></li>
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownProject" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Project Section</b></a>
-            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownProject" style="left: 50%; transform: translateX(-50%);">
-              <li><a class="dropdown-item" href="#pb">Project Background</a></li>
-              <li><a class="dropdown-item" href="#pg">Project Goals</a></li>
-              <li><a class="dropdown-item" href="#method">Methodology</a></li>
-              <li><a class="dropdown-item" href="#gp">Gathering Process</a></li>
-              <li><a class="dropdown-item" href="#data">Data Visualization & Analysis</a></li>
-              <li><a class="dropdown-item" href="#recom">Recommendation</a></li>
-              <li><a class="dropdown-item" href="#con">Conclusion</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMore" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>More</b></a>
-            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMore" style="left: 50%; transform: translateX(-50%);">
-              <li><a class="dropdown-item" href="#anggota">Team Members</a></li>
-              <li><a class="dropdown-item" href="#feedback">Feedback Form</a></li>
-              <li><a class="dropdown-item" href="#contact">Contact Us</a></li>
-            </ul>
-          </li>
-        </li>
-      </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link text-dark" href="overview.html"><b>Overview</b></a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="about.html"><b>About Us</b></a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownProject" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Project Section</b></a>
+                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownProject" style="left: 50%; transform: translateX(-50%);">
+                    <li><a class="dropdown-item" href="#pb">Project Background</a></li>
+                    <li><a class="dropdown-item" href="#pg">Project Goals</a></li>
+                    <li><a class="dropdown-item" href="#method">Methodology</a></li>
+                    <li><a class="dropdown-item" href="#gp">Gathering Process</a></li>
+                    <li><a class="dropdown-item" href="#data">Data Visualization & Analysis</a></li>
+                    <li><a class="dropdown-item" href="#recom">Recommendation</a></li>
+                    <li><a class="dropdown-item" href="#con">Conclusion</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMore" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>More</b></a>
+                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMore" style="left: 50%; transform: translateX(-50%);">
+                    <li><a class="dropdown-item" href="#anggota">Team Members</a></li>
+                    <li><a class="dropdown-item" href="#feedback">Feedback Form</a></li>
+                    <li><a class="dropdown-item" href="#contact">Contact Us</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
-  </div>
-
+</div>
   
 <!-- Bagian kanan navbar -->
 <div class="form-container">
@@ -105,46 +93,18 @@
         <h2 class="display-4 fw-bold" id="kegiatan">RevoU Tech Academy</h2>
         <h3 class="display-6 fw-bold" id="kegiatan">Learn Data Analytics & Software Development With AI</h3>
         <section style="font-weight: normal; font-size: 1rem;">
-          <br>
-          <p style="font-weight: normal; font-size: 1rem;">Team 7 Section Semarang</p>
+            <br>
+            <p style="font-weight: normal; font-size: 1rem;">Team 7 Section Semarang</p>
         </section>
-        <button class="btn btn-warning">Check It</button>
-      </div>
+        <a href="overview.html" class="btn btn-warning">Check It</a>
+    </div>
+    
 
     </div>
   </div>
 </div>
 
-<br><br>
-
-<!-- Overview -->
-<main>
-  <div class="container-fluid pt-5 pb-5">
-    <div class="container text-center">
-      <h2 class="display-10" id="ov"><b>Overview</b></h2>
-      <div class="row pt-4">
-        <div class="col-md-8 mx-auto"> <!-- Tambahkan class col-md-8 dan mx-auto -->
-          <div class="card crop-img">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6" style="text-align: justify;">
-                  <p style="text-indent: 1em;">Our team conducted an analysis of the Bikes Sales Europe dataset to extract business questions and find solutions to them. We followed a series of steps, including identifying the root causes of the problems, setting objectives, analyzing the dataset, and creating visualizations to better understand the results of our analysis.</p>
-                </div>
-                <div class="col-md-6" style="text-align: justify;">
-                  <p style="text-indent: 1em;">The main focus of our analysis is on how to increase the revenue of a product in a European country with a specific age group.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</main>
-
-
-
-<br>
+<br><br><br>
 
 <!-- project background -->
     <main>
@@ -236,6 +196,7 @@
 <br>
 
 <!-- gathering process -->
+
       <main>
         <div class="container-fluid pt-5 pb-5">
           <div class="container text-center">
@@ -526,11 +487,7 @@
 
     <!-- footer -->
     <footer>
-      <div class="footer-section">
-        <h3 id="au">About Us</h3>
-        <p>Team 7 Section Semarang, Revou Tech Academy</p>
-      </div>
-    
+
       <div class="footer-section">
         <h3>Links</h3>
         <p><a href="https://docs.google.com/spreadsheets/d/14ucBDGxmsDAat30HjIrqUWDsJkVWPgzAMPE9LPEZrks/edit#gid=812620893">Dataset</a></p>

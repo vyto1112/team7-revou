@@ -2,10 +2,68 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+}
+.navbar-transparent.navbar-scroll {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: background-color 0.3s ease;
+}
+
 .img-container {
   max-width: 630px;
   margin: auto;
 }
+
+/* Efek hover untuk button check it */
+.btn-warning:hover {
+  transform: scale(1.1); /* Memperbesar tombol saat dihover */
+  transition: transform 0.3s ease; /* Efek transisi */
+  background-color: lightgray; /* Warna latar belakang saat tombol dihover */
+  border-color: black; /* Warna border saat tombol dihover */
+  color: #212529; /* Warna teks saat tombol dihover */
+}
+
+/* Efek hover untuk gambar */
+.crop-img:hover img {
+  transform: scale(1.1); /* Memperbesar gambar saat dihover */
+  transition: transform 0.3s ease; /* Efek transisi */
+}
+
+/* Center the dropdown menu */
+.nav-item.dropdown .dropdown-menu {
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* Optional: Additional styling for better visual alignment */
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+/* Hover effect for nav links */
+.nav-link, .dropdown-item {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+  transform: scale(1.1);
+  transition: color 0.3s ease;
+  color: #007bff; /* Change this color to your desired hover color */
+}
+
 .img-fluid {
   width: 100%;
   height: auto;
@@ -106,7 +164,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 2em;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .footer-section {
