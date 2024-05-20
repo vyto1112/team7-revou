@@ -2,7 +2,7 @@
 var nav = document.querySelector('nav');
 
 window.addEventListener('scroll', function () {
-  if (window.pageYOffset > 100 || window.pageYOffset === 0) {
+  if (window.pageYOffset > 10 || window.pageYOffset === 0) {
     nav.classList.add('navbar-scroll');
   } else {
     nav.classList.remove('navbar-scroll');
